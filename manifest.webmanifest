@@ -1,0 +1,22 @@
+{
+  "name": "SpeedConnect — Supervision connectée",
+  "short_name": "SpeedConnect",
+  "description": "Supervision en temps réel de vos groupes électrogènes, sécurité incendie, motopompes et moteurs.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#11161e",
+  "theme_color": "#0b0f16",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Mon espace", "url": "./#espace", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "SCADA", "url": "./#scada", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Espace SAV", "url": "./#sav", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
