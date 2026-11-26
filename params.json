@@ -1,0 +1,26 @@
+{
+  "ge": [
+    {"key":"carburant","label":"Carburant","unit":"%","warn":30,"crit":15,"low":true},
+    {"key":"huile","label":"Pression d'huile","unit":"bar","warn":2.5,"crit":1.5,"low":true},
+    {"key":"eau_moteur","label":"Eau moteur","unit":"°C","warn":95,"crit":105,"low":false},
+    {"key":"batterie","label":"Batterie","unit":"V","warn":12,"crit":11.5,"low":true}
+  ],
+  "ssi": [
+    {"key":"reserve_eau","label":"Réserve d'eau","unit":"%","warn":40,"crit":20,"low":true},
+    {"key":"sprinklers","label":"Sprinklers","unit":"bar","warn":5,"crit":3,"low":true},
+    {"key":"batt_cmsi","label":"Batterie CMSI","unit":"V","warn":24,"crit":22.5,"low":true},
+    {"key":"zones_alarme","label":"Zones en alarme","unit":"","warn":1,"crit":3,"low":false}
+  ],
+  "pompes": [
+    {"key":"pression","label":"Pression","unit":"bar","warn":4,"crit":2,"low":true},
+    {"key":"debit","label":"Débit","unit":"m³/h","warn":60,"crit":30,"low":true},
+    {"key":"temperature","label":"Température","unit":"°C","warn":60,"crit":80,"low":false},
+    {"key":"vibration","label":"Vibration","unit":"mm/s","warn":4.5,"crit":7,"low":false}
+  ],
+  "moteurs": [
+    {"key":"courant","label":"Courant","unit":"A","warn":22,"crit":26,"low":false},
+    {"key":"temperature","label":"Température","unit":"°C","warn":90,"crit":110,"low":false},
+    {"key":"vibration","label":"Vibration","unit":"mm/s","warn":4.5,"crit":7,"low":false},
+    {"key":"charge","label":"Charge","unit":"%","warn":85,"crit":95,"low":false}
+  ]
+}
